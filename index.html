@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Try-On: Sunglasses</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Virtual Try-On: Sunglasses</h1>
+  <video id="videoElement" autoplay playsinline></video>
+  <canvas id="overlay"></canvas>
+  <div class="controls">
+    <button id="loadSunglasses">Try Sunglasses</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils"></script>
+  <script src="script.js"></script>
+</body>
+</html>
